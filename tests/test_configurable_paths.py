@@ -75,11 +75,11 @@ def test_search_db_is_configurable(tmp_path):
 def test_search_db_defaults_to_the_repo_memory_store():
     module = _reload(search_tool, {}, "LOCO_MEMORY_DB", None)
     assert module.DB_PATH == str(ROOT / "memory" / "loco.db")
-    assert Path(module.DB_PATH).exists()
 
 
 @pytest.mark.skipif(not (ROOT / "memory" / "loco.db").exists(),
                     reason="memory store not built in this checkout")
 def test_search_tool_reads_the_loco_memory_store():
     module = _reload(search_tool, {}, "LOCO_MEMORY_DB", None)
+    assert Path(module.DB_PATH).exists()
     module.search("probe-that-matches-nothing")  # must not raise
