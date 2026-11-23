@@ -101,8 +101,8 @@ first-principles build scope.
 
 ## Work with me
 
-Built by Jahanzaib Ali, Founder & Systems Engineer at [AliLabsX](https://alilabsx.com). I don't rent, I build: I run my own hardware and keep my own data.
+Built by Jahanzaib Ali, Founder & Systems Engineer at [ALI LABS X](https://alilabsx.com). I don't rent, I build: I run my own hardware and keep my own data.
 
 [Jahanzaib@alilabsx.com](mailto:Jahanzaib@alilabsx.com) · [alilabsx.com](https://alilabsx.com) · [LinkedIn](https://www.linkedin.com/in/jahanzaib-ali-labsx)
 
-Made by AliLabsX.
+LOCO is an open-source project of [ALI LABS X](https://github.com/Ali-Labs-X).
